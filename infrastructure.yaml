@@ -1,0 +1,6 @@
+Resources:
+  BlogRepository:
+    Type: AWS::CodeCommit::Repository
+    Properties:
+      RepositoryDescription: Repository for holding the Blog's infrastructure
+      RepositoryName: Blog
